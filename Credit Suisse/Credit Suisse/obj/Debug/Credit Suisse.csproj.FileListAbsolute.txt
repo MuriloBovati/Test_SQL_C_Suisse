@@ -1,0 +1,11 @@
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\bin\Debug\Credit Suisse.exe.config
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\bin\Debug\Credit Suisse.exe
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\bin\Debug\Credit Suisse.pdb
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\obj\Debug\Credit Suisse.csproj.AssemblyReference.cache
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\obj\Debug\Credit Suisse.csproj.SuggestedBindingRedirects.cache
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\obj\Debug\Credit Suisse.csproj.CoreCompileInputs.cache
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\obj\Debug\Credit Suisse.exe
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\obj\Debug\Credit Suisse.pdb
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Muril\OneDrive\Área de Trabalho\Project Cred Suisse\Credit Suisse\Credit Suisse\obj\Debug\Credit Suisse.csproj.CopyComplete

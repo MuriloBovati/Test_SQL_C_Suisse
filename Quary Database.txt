@@ -1,0 +1,45 @@
+/*Quest 2:*/
+
+/*Create the database and table*/
+
+CREATE DATABASE wallet;
+CREATE TABLE trades (cash int NOT NULL, clientSector varchar(10)NOT NULL, id_trade int PRIMARY KEY);
+
+/*Adding some trades*/
+
+INSERT INTO trades(cash, clientSector) VALUES (400000, 'public');
+INSERT INTO trades(cash, clientSector) VALUES (500000, 'public');
+INSERT INTO trades(cash, clientSector) VALUES (3000000, 'public');
+INSERT INTO trades(cash, clientSector) VALUES (300000, 'private');
+INSERT INTO trades(cash, clientSector) VALUES (200000, 'private');
+
+/*Adding column risk*/
+
+ALTER TABLE trades add risk varchar(20);
+
+/*UPDATE list*/
+
+UPDATE trades SET risk = 'low' WHERE cash < 1000000 and clientSector = 'public';
+UPDATE trades SET risk = 'medium' WHERE cash > 1000000 and clientSector = 'public';
+UPDATE trades SET risk = 'medium_High' WHERE cash < 1000000 and clientSector = 'private';
+UPDATE trades SET risk = 'high' WHERE cash > 1000000 and clientSector = 'private';
+
+/*Creating the list of low risk trades*/
+
+USE wallet
+SELECT * INTO low_risk FROM trades WHERE cash < 1000000 and clientSector = 'public'
+
+/*Creating the list of medium risk trades*/
+
+USE wallet
+SELECT * INTO medium_risk FROM trades WHERE cash > 1000000 and clientSector = 'public'
+
+/*Creating the list of medium/high risk trades*/
+
+USE wallet
+SELECT * INTO medium_high_risk FROM trades WHERE cash > 1000000 and clientSector = 'private'
+
+/*Creating the list of high risk trades*/
+
+USE wallet
+SELECT * INTO high_risk FROM trades WHERE cash > 1000000 and clientSector = 'private'
